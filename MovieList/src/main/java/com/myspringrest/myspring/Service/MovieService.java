@@ -8,7 +8,7 @@ public interface MovieService  {
 
 	public List<Movie> getMovieList();
 	
-	public List<Movie> addMovieList(List<Movie> Movies);
+	public Movie addMovieList(Movie movie);
 	
 	public String updateMovie(Movie movie,String name); 
 	

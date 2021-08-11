@@ -8,7 +8,7 @@ public interface DirectorService {
 
 	public List<Director> getDirectors();
 	
-	public List<Director> addDirectors(List<Director> directorList);
+	public Director addDirectors(Director directorList);
 	
 	public String updateDirector(Director director,String name);
 	

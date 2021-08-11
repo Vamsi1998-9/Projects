@@ -28,7 +28,7 @@ public class DirectorController {
 	}
 	
 	@PostMapping("/direct")
-	public List<Director> addDirectors(@RequestBody List<Director> List)
+	public Director addDirectors(@RequestBody Director List)
 	{
 		return service.addDirectors(List);
 	}

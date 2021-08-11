@@ -23,9 +23,9 @@ public class DirectorServiceImpl implements DirectorService{
 	}
 
 	@Override
-	public List<Director> addDirectors(List<Director> directorList) {
+	public Director addDirectors(Director directorList) {
 		// TODO Auto-generated method stub
-		return repo.saveAll(directorList);
+		return repo.save(directorList);
 	}
 
 	@Override

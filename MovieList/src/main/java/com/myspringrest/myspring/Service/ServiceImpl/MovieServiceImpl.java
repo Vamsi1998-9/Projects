@@ -21,8 +21,8 @@ public class MovieServiceImpl implements MovieService{
 	}
 
 	@Override
-	public List<Movie> addMovieList(List<Movie> Movies) {
-		return repo.saveAll(Movies);
+	public Movie addMovieList(Movie movie) {
+		return repo.save(movie);
 	}
 
 	@Override
